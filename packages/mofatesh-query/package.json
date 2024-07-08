@@ -1,8 +1,9 @@
 {
   "name": "mofatesh-query",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "access": "public",
   "scripts": {
     "build": "tsup ./src"
   },
@@ -10,9 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tsup": "^8.1.0",
-    "typescript": "^5.4.5",
-    "react": "^18.3.1"
+    "typescript": "^5.4.5"
   }
 }
